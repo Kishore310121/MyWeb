@@ -20,6 +20,11 @@ public class MyWebController {
 	public String getVal() {
 		return "Kishore";
 	}
+	
+	@GetMapping(value = "/Hello Git-Hub")
+	public String getGit() {
+		return "Kishore's GitHub";
+	}
 
 	@GetMapping(value = "/IntArray")
 	public int[] getVal1() {
