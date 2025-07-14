@@ -25,6 +25,11 @@ public class MyWebController {
 	public String getGit() {
 		return "Kishore's GitHub";
 	}
+	
+	@GetMapping(value = "/Hello Git")
+	public String getGit1() {
+		return "Kishore's GitHub 2";
+	}
 
 	@GetMapping(value = "/IntArray")
 	public int[] getVal1() {
